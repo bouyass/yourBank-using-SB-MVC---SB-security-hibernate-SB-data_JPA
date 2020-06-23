@@ -6,7 +6,7 @@ import java.util.Collection;
 
 
 @Entity
-public abstract class Client implements Serializable {
+public class Client implements Serializable {
     @Id
     @GeneratedValue
     private long code;
